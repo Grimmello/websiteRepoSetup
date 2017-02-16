@@ -3,9 +3,10 @@
 mkdir ~/Desktop/$1
 mkdir ~/Desktop/$1/css
 mkdir ~/Desktop/$1/img
-touch ~/Desktop/$1/css/styles.css
+mkdir ~/Desktop/$1/js
 cp ~/Desktop/websiteRepoSetup/index.html ~/Desktop/$1/index.html
-cp ~/Desktop/websiteRepoSetup/css/bootstrap.css ~/Desktop/$1/css/bootstrap.css
+cp -R ~/Desktop/websiteRepoSetup/css ~/Desktop/$1/
+cp -R ~/Desktop/websiteRepoSetup/js ~/Desktop/$1/
 cd ~/Desktop/$1
 git init
 git pair $2 $3
