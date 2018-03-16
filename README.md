@@ -1,19 +1,19 @@
 
 # A bash script tool to help streamline creation of new websites for Epicodus
 
-#### 8 Feb., 2017, v.1.0.0
+#### 14 Mar., 2018, v.1.0.1
 
-#### By _Mark Fisher and Clifford Grimmell_
+#### By _Clifford Grimmell_
 
 ## Description
 
-This script takes three arguments from the user (repo name, parter 1 initials, and partner 2 initials), and uses those variables to create a directory with repo name, create a "css" subdirectory, create an "img" subdirectory, create a styles.css document in the css subdirectory, create an index.html document in the repo folder, initialized the folder as a git repo, executes `git pair` with partner 1's and partner 2's intials, adds everything, makes a first paired commit, and opens the directory in atom.
+This script takes an argument from the user (repo name) and uses that to create a directory with repo name, create a "css" subdirectory, create an "img" subdirectory, create a styles.css document in the css subdirectory, create an index.html document in the repo folder, initialized the folder as a git repo, adds everything, makes a first paired commit, and opens the directory in atom.
 
 ## Setup/Installation Requirements
 
 * _clone this repo. (to your Desktop)_
 * _open terminal_
-* _type_ `~/Desktop/websiteRepoSetup/./websiteRepoSetup.sh [yourRepoName] [partner1Initials] [partner2Initials]`
+* _type_ `~/Desktop/websiteRepoSetup/./websiteRepoSetup.sh [yourRepoName]`
 * _enjoy_
 
 
@@ -23,7 +23,7 @@ _There are no known bugs. I'd be interested to know if you find any._
 
 ## Support and contact details
 
-_Please feel free to contact mark.aaron.fisher@gmail.com for questions_
+_Please feel free to contact agrimmell2@gmail.com for questions_
 
 ## Technologies Used
 
