@@ -1,5 +1,5 @@
 #! /bin/bash
-#usage ./websiteRepoSetup.sh dirName
+#usage ./websiteRepoSetup.sh dirName githubUserName
 mkdir ~/Desktop/$1
 mkdir ~/Desktop/$1/css
 mkdir ~/Desktop/$1/img
@@ -11,4 +11,5 @@ cd ~/Desktop/$1
 git init
 git add .
 git commit -m "create initial css folder, img folder, and index.html"
+git remote add origin https://github.com/$2/$1.git
 atom .
